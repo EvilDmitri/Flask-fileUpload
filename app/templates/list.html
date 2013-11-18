@@ -1,0 +1,8 @@
+<!doctype html>
+<title>Hello from Flask</title>
+
+{% if uploads %}
+  {% for upload in uploads%}
+      {{ upload }}
+    {% endfor %}
+{% endif %}
